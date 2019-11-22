@@ -20,7 +20,7 @@ function checkAnswers(answer) {
 
 function town(){
   // var name = prompt("what is your name?");
-  story("Oh you're awake, welcome!");
+  story("Oh you're awake, welcome.");
   choices = ["Think some more", "go into the forest", "ignore it and go home"];
   answer = setOptions(choices);
 }
