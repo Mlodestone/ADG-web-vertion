@@ -20,9 +20,7 @@ function checkAnswers(answer) {
 
 function town(){
   // var name = prompt("what is your name?");
-  story("One day you are on your way home from school and you hear a whisper coming from a dark forest you never remember seeing before.\
-  \n\"Come here Come here!\"\
-  \nit says. You can't place the voice, but there is something familiar about it. What do you do?");
+  story("Oh you're awake, welcome!");
   choices = ["Think some more", "go into the forest", "ignore it and go home"];
   answer = setOptions(choices);
 }
